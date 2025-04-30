@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC  -pthread -fexceptions  -O3 -DNDEBUG -O3 -mcpu=native -mtune=native -ffast-math   -shared -Wl,-soname,liblaser_mapping.so -o /home/airpig/fast-livo2/devel/lib/liblaser_mapping.so CMakeFiles/laser_mapping.dir/src/LIVMapper.cpp.o   -L/usr/local/cuda-11.4/lib64 

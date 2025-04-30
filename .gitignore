@@ -1,0 +1,34 @@
+# ROS编译文件和构建缓存
+build/
+devel/
+log/
+install/
+catkin_ws/
+
+# ROS工具文件
+.catkin_tools/
+.catkin_workspace
+
+# 编辑器和系统生成的临时文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Python编译缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# MACOS和Windows系统垃圾
+.DS_Store
+Thumbs.db
+
+# 忽略 Catkin 的 msg/、srv/ 自动生成文件
+msg/_*.py
+srv/_*.py
+
+# ROS 的特殊控制文件
+CATKIN_IGNORE
