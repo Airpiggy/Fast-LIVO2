@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC  -pthread -fexceptions  -O3 -DNDEBUG -O3 -mcpu=native -mtune=native -ffast-math   -shared -Wl,-soname,liblio.so -o /home/airpig/fast-livo2/devel/lib/liblio.so CMakeFiles/lio.dir/src/voxel_map.cpp.o   -L/usr/local/cuda-11.4/lib64 
